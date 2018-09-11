@@ -1,0 +1,81 @@
+header {
+    margin-top: 30px;
+    height: 75px;
+}
+
+p {
+    position: relative;
+    top: calc(50% - 20px);
+}
+
+#section-b {
+    height: 150px;
+}
+
+.first-section {
+    height: 250px;
+}
+
+.first-section div {
+    height: 125px;
+}
+
+.second-section {
+    height: 500px;
+}
+
+.second-section div {
+    position: relative;
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+div {
+    position: relative;
+    height: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        height: 100px;
+    }
+
+    #section-b {
+        height: 600px;
+        width: 21%;
+        float: left;
+    }
+
+    .first-section {
+        height: 200px;
+        width: 79%;
+        float: left;
+    } 
+
+    .first-section div {
+        height: 200px;
+        width: 50%;
+        float: left;
+    }
+
+    .second-section {
+        height: 250px;
+        width: 79%;
+        float: left;
+    }
+    
+    .second-section div {
+        position: relative;
+        width: 25%;
+        height: 250px;
+        float: left;
+    }
+
+    #section-i {
+        float: left;
+        position: relative;
+        width: 79%;
+        height: 150px;
+    }
+}
